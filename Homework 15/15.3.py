@@ -37,13 +37,12 @@ class TVController():
             return 1 <= channel <= len(self.channels)
         return channel in self.channels
 
-
-controller = TVController(CHANNELS)
-
-print(controller.first_channel())
-print(controller.last_channel())
-print(controller.change_channel(2))
-print(controller.next_channel())
-print(controller.previous_channel())
-print(controller.exists(8))
-print(controller.exists("Місто"))
+# controller = TVController(CHANNELS)
+#
+# print(controller.first_channel())
+# print(controller.last_channel())
+# print(controller.change_channel(2))
+# print(controller.next_channel())
+# print(controller.previous_channel())
+# print(controller.exists(8))
+# print(controller.exists("Місто"))
