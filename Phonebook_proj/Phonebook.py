@@ -2,7 +2,7 @@ import os
 import json
 import sys
 
-# ЗАВАНТАЖУЮ ФАЙЛ
+# ФАЙЛ .JSON
 def load_phonebook(filename='contacts.json'):
     if not os.path.exists(filename):
         raise FileNotFoundError(f"Файл '{filename}' не знайдено.")
