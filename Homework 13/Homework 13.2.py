@@ -1,17 +1,12 @@
 # Напишіть програму на Python для доступу до функції всередині функції
 # (Поради: використовуйте функцію, яка повертає іншу функцію)
 
-# def outer():
-#     def inner():
-#         print("Привіт з незрозумілого блоку заплутаної логіки!")
-#
-#     return inner
+def outer_function():
+    def inner_function():
+        print("I`m from inner function")
 
-# o = outer()
-# o()
-#
+    return inner_function
 
-def func_1():
-    print("I func_")
 
-#  f
+f = outer_function()
+f()
