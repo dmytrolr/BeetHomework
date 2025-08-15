@@ -1,17 +1,16 @@
-# Функція enumerate(iterable, start=0) повертає ітератор, який генерує кортежі (index, element)
-# для кожного елемента в iterable, починаючи з start.
-
 def with_index(iterable, start=0):
     index = start
     for item in iterable:
         yield (index, item)
         index += 1
 
-# for i, val in with_index(['a', 'b', 'c'], start=1):
-#     print(i, val)
+# data = ['a', 'b', 'c']
+# start = 1
 #
-# e = enumerate(['a', 'b'])
-# w = with_index(['a', 'b'])
+# print("with_index:")
+# for i in with_index(data, start):
+#     print(i)
 #
-# print(type(e))  # <class 'enumerate'>
-# print(type(w))  # <class 'generator'>
+# print("\nenumerate:")
+# for i in enumerate(data, start):
+#     print(i)
