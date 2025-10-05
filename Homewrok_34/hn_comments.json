@@ -1,0 +1,712 @@
+[
+  {
+    "by": "LASR",
+    "id": 45475924,
+    "kids": [
+      45476050,
+      45476072,
+      45478992,
+      45477631
+    ],
+    "parent": 45475529,
+    "text": "This is an interesting approach.<p>My team has been prototyping something very similar with encoding business operations policies with LEAN. We have some internal knowledge bases (google docs &#x2F; wiki pages) that we first convert to LEAN using LLMs.<p>Then we run the solver to verify consistency.<p>When a wiki page is changed, the process is run again and it&#x27;s essentially a linter for process.<p>Can&#x27;t say it moved beyond the prototyping stage though, since the LEAN conversion does require some engineers to look through it at least.<p>But a promising approach indeed, especially when you have a domain that requires tight legal &#x2F; financial compliance.",
+    "time": 1759605842,
+    "type": "comment"
+  },
+  {
+    "by": "sigmoid10",
+    "id": 45475925,
+    "kids": [
+      45476117,
+      45475989,
+      45476075,
+      45476148,
+      45476426,
+      45475992
+    ],
+    "parent": 45475529,
+    "text": "I always find it amazing how many people seem to fail to use current LLMs to the fullest, even though they apparently work with them in research settings. This benchmark pipeline simply calls the OpenAI API and then painstakingly tries to parse the raw text output into a structured json format, when in reality the OpenAI API has supported structured outputs for ages now. That already ensures your model generates schema compliant output without hallucinating keys at the inference level. Today all the major providers support this feature either directly or at least indirectly via function calling. And if you run open models, you can literally write arbitrary schema (i.e. not limited to json behind the scenes) adhering inference engines yourself with rather manageable effort. I&#x27;m constantly using this in my daily work and I&#x27;m always baffled when people tell me about their hallucination problems, because so many of them can be fixed trivially these days.",
+    "time": 1759605848,
+    "type": "comment"
+  },
+  {
+    "by": "ivanbakel",
+    "id": 45475977,
+    "kids": [
+      45476244
+    ],
+    "parent": 45475529,
+    "text": "The repo is sparse on the details unless you go digging, which perhaps makes sense if this is just meant as the artifact for the mentioned paper.<p>Unless I’m wrong, this is mainly an API for trying to get an LLM to generate a Z3 program which “logically” represents a real query, including known facts, inference rules, and goals. The “oversight” this introduces is in the ability to literally read the logical statement being evaluated to an answer, and running the solver to see if it holds or not.<p>The natural source of doubt is: who’s going to read a bunch of SMT rules manually and be able to accurately double-check them against real-world understanding? Who double checks the constants? What stops the LLM from accidentally (or deliberately, for achieving the goal) adding facts or rules that are unsound (both logically and from a real-world perspective)?<p>The paper reports a *51%* false positive rate on a logic benchmark! That’s shockingly high, and suggests the LLM is either bad at logical models or keeps creating unsoundnesses. Sadly, the evaluation is a bit thin on the ground about how this stacks up, and what causes it to fall short.",
+    "time": 1759606246,
+    "type": "comment"
+  },
+  {
+    "by": "measurablefunc",
+    "id": 45475986,
+    "kids": [
+      45476090,
+      45476455
+    ],
+    "parent": 45475529,
+    "text": "This is proof of verifiable logic. Computers can not think so calling it proof of thought misrepresents what&#x27;s actually happening.",
+    "time": 1759606335,
+    "type": "comment"
+  },
+  {
+    "by": "nextos",
+    "id": 45476005,
+    "kids": [
+      45476083,
+      45476094
+    ],
+    "parent": 45475529,
+    "text": "This is a very interesting area of research. I did something similar a couple of years ago using logic and probabilistic logic inference engines to make sure conclusions followed from premises.<p>I also used agents to synthesize, formalize, and criticize domain knowledge. Obviously, it is not a silver bullet, but it does ensure some degree of correctness.<p>I think introducing some degree of symbolism and agents-as-a-judge is a promising way ahead, see e.g.: <a href=\"https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2410.10934\" rel=\"nofollow\">https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2410.10934</a>",
+    "time": 1759606529,
+    "type": "comment"
+  },
+  {
+    "by": "nakamoto_damacy",
+    "id": 45476112,
+    "kids": [
+      45476286,
+      45476406,
+      45478031
+    ],
+    "parent": 45475529,
+    "text": "LLMs lack logical constraints in the generative process; they only learn probabilistic constraints. If you apply logic verification post-hoc, you&#x27;re not &quot;ensuring the correctness of your LLMs reasoning&quot;  (I went down this path a year ago); you&#x27;re classifying whether the LLM&#x27;s statistically driven pattern generation happens to correspond to correct logic or not, where the LLMs output may be wrong 100% of the time, and your theorem prover simply acts as a classifier, ensuring nothing at all.",
+    "time": 1759607150,
+    "type": "comment"
+  },
+  {
+    "by": "zwnow",
+    "id": 45476128,
+    "kids": [
+      45476171,
+      45476728
+    ],
+    "parent": 45475529,
+    "text": "Reasoning? LLMs can not reason, why is it always assumed they reason? They mimic reasoning.",
+    "time": 1759607230,
+    "type": "comment"
+  },
+  {
+    "by": "dehsge",
+    "id": 45476272,
+    "kids": [
+      45479840
+    ],
+    "parent": 45475529,
+    "text": "LLMs and its output are bounded by Rices theorem. This is not going to ensure correctness it’s just going to validate that the model can produce an undecidable result.",
+    "time": 1759608419,
+    "type": "comment"
+  },
+  {
+    "by": "everdrive",
+    "id": 45476437,
+    "kids": [
+      45476508,
+      45476447,
+      45476498,
+      45476492
+    ],
+    "parent": 45475529,
+    "text": "I&#x27;m honestly confused why we can&#x27;t determine how LLMs come to their decisions in the general sense. Is it not possible to log every step as the neural network &#x2F; vector db &#x2F; magic happens? Is it merely impractical, or is it actually something that&#x27;s genuinely difficult to do?",
+    "time": 1759609888,
+    "type": "comment"
+  },
+  {
+    "by": "tonerow",
+    "id": 45476452,
+    "kids": [
+      45476568
+    ],
+    "parent": 45475529,
+    "text": "Cool research! I went to the repo to see what the DSL looked like but it was hard to find a clear example. It would be cool if you added a snippet to the README.",
+    "time": 1759610011,
+    "type": "comment"
+  },
+  {
+    "by": "tannhaeuser",
+    "id": 45476590,
+    "kids": [
+      45476784,
+      45479414
+    ],
+    "parent": 45475529,
+    "text": "LLMs are statistical language models (d&#x27;uh) not reasoners after all. I found generating logic programs, and Prolog source specifically, to work unreasonably well, though [1], maybe because Prolog was introduced for symbolic natural language processing and there&#x27;s a wealth of translation examples in the training set. Might be worth checking out Z3&#x27;s alternative Datalog syntax [2] instead of its Lisp-ish SMTLib syntax.<p>[1]: <a href=\"https:&#x2F;&#x2F;quantumprolog.sgml.net&#x2F;llm-demo&#x2F;part1.html\" rel=\"nofollow\">https:&#x2F;&#x2F;quantumprolog.sgml.net&#x2F;llm-demo&#x2F;part1.html</a><p>[2]: <a href=\"https:&#x2F;&#x2F;microsoft.github.io&#x2F;z3guide&#x2F;docs&#x2F;fixedpoints&#x2F;syntax\" rel=\"nofollow\">https:&#x2F;&#x2F;microsoft.github.io&#x2F;z3guide&#x2F;docs&#x2F;fixedpoints&#x2F;syntax</a>",
+    "time": 1759611104,
+    "type": "comment"
+  },
+  {
+    "by": "chrchr",
+    "id": 45476639,
+    "kids": [
+      45476701,
+      45476753,
+      45479667,
+      45477476
+    ],
+    "parent": 45475529,
+    "text": "I had a surprising interaction with Gemini 2.5 Pro that this project reminds me of. I was asking the LLM for help using an online CAS system to solve a system of equations, and the CAS system wasn&#x27;t working as I expected. After a couple back and forths with Gemini about the CAS system, Gemini just gave me the solution. I was surprised because it&#x27;s the kind of thing I don&#x27;t expect LLMs to be good at. It said it used Python&#x27;s sympy symbolic computation package to arrive at the solution. So, yes, the marriage of fuzzy LLMs with more rigorous tools can have powerful effects.",
+    "time": 1759611442,
+    "type": "comment"
+  },
+  {
+    "by": "sicariomoon",
+    "dead": true,
+    "id": 45476694,
+    "parent": 45475529,
+    "text": "[dead]",
+    "time": 1759611911,
+    "type": "comment"
+  },
+  {
+    "by": "0xWTF",
+    "id": 45476723,
+    "kids": [
+      45477441,
+      45479044,
+      45477078
+    ],
+    "parent": 45475529,
+    "text": "Am I reading this right? Statistical LLM outputs pushed through a formal logic model? Wouldn&#x27;t that be a case of &quot;crap in, crap out&quot;?",
+    "time": 1759612092,
+    "type": "comment"
+  },
+  {
+    "by": "Yoric",
+    "id": 45476822,
+    "parent": 45475529,
+    "text": "That is exactly the kind of things that I hope LLM will help us achieve before the next AI winter.",
+    "time": 1759612941,
+    "type": "comment"
+  },
+  {
+    "by": "Western0",
+    "id": 45476868,
+    "parent": 45475529,
+    "text": "I need this same with Mizar <a href=\"https:&#x2F;&#x2F;wiki.mizar.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;wiki.mizar.org&#x2F;</a>",
+    "time": 1759613309,
+    "type": "comment"
+  },
+  {
+    "by": "sytse",
+    "id": 45477313,
+    "parent": 45475529,
+    "text": "So the core idea is to use an LLM to draft reasoning as a structured, JSON domain-specific language (DSL), then deterministically translate that into first-order logic and verify it with a theorem prover (Z3).<p>Interesting that the final answer is provably entailed (or you get a counterexample), instead of being merely persuasive chain-of-thought.",
+    "time": 1759617041,
+    "type": "comment"
+  },
+  {
+    "by": "westurner",
+    "id": 45477996,
+    "parent": 45475529,
+    "text": "ScholarlyArticle: &quot;Proof of thought: Neurosymbolic program synthesis allows robust and interpretable reasoning&quot; (2024) <a href=\"https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2409.17270\" rel=\"nofollow\">https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2409.17270</a> .. <a href=\"https:&#x2F;&#x2F;scholar.google.com&#x2F;scholar?hl=en&amp;as_sdt=0%2C43&amp;q=%22Proof+of+thought%3A+Neurosymbolic+program+synthesis+allows+robust+and+interpretable+reasoning%22+&amp;btnG=\" rel=\"nofollow\">https:&#x2F;&#x2F;scholar.google.com&#x2F;scholar?hl=en&amp;as_sdt=0%2C43&amp;q=%22...</a>",
+    "time": 1759624972,
+    "type": "comment"
+  },
+  {
+    "by": "nakamoto_damacy",
+    "id": 45478000,
+    "parent": 45475529,
+    "text": "I posted about my year long development effort of this very method on reddit 25 days ago. My comment elsewhere in this thread provides a cautionary tale, and the authors response to the basic issue I raised is incomplete in that it leaves out that certain problems simply cannot be solved with LLMs (requires logical constraints in the generative process but LLMs lack that layer) So I&#x27;ve pivoted to something else since (also mentioned in my comment elsewhere in this thread)<p><a href=\"https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;healthIT&#x2F;comments&#x2F;1n81e8g&#x2F;comment&#x2F;ndapz1r&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;healthIT&#x2F;comments&#x2F;1n81e8g&#x2F;comment&#x2F;n...</a>",
+    "time": 1759625040,
+    "type": "comment"
+  },
+  {
+    "by": "renshijian",
+    "id": 45478217,
+    "parent": 45475529,
+    "text": "This is fascinating! An AI that doesn&#x27;t just think out loud, but keeps a verifiable diary. It&#x27;s like a philosopher with a cryptographic notary public living in its brain. Amazing work!",
+    "time": 1759628437,
+    "type": "comment"
+  },
+  {
+    "by": "michaelsmanley",
+    "id": 45478506,
+    "kids": [
+      45478958,
+      45480026
+    ],
+    "parent": 45477971,
+    "text": "When I was a co-op student employee at IBM in the late 80s, I was given a desk in what was otherwise a storage room piled with stuff that had been used and then set aside. One box contained a 5140 convertible laptop with one of each peripheral &quot;slice&quot; -- printer, modem, expansion ports -- and the full set of technical manuals.<p>I was allowed to take that beast home with me. I learned so much tinkering with that machine. Eventually, I sold the whole set at a ham fest and I have regretted it often.<p>Nice to see an appreciation of it, though I would never have looked at it as alligator-like.",
+    "time": 1759632595,
+    "type": "comment"
+  },
+  {
+    "deleted": true,
+    "id": 45478554,
+    "parent": 45478553,
+    "time": 1759633310,
+    "type": "comment"
+  },
+  {
+    "by": "lucasqueiroz",
+    "id": 45478594,
+    "kids": [
+      45478855
+    ],
+    "parent": 45478553,
+    "text": "Great work and thank you for sharing!\nI will definitely disable the CLI integration.\nHoping 1Password fixes the CLI flow soon.",
+    "time": 1759634096,
+    "type": "comment"
+  },
+  {
+    "by": "johnDD",
+    "id": 45478608,
+    "kids": [
+      45478795
+    ],
+    "parent": 45477971,
+    "text": "I wonder if John Titor could have used this?",
+    "time": 1759634304,
+    "type": "comment"
+  },
+  {
+    "by": "sroerick",
+    "id": 45478692,
+    "kids": [
+      45479066
+    ],
+    "parent": 45477971,
+    "text": "Aesthetically this beats about 75% of the current laptop market.<p>Would love to see some genuine creativity &#x2F; cyberdeck type builds from laptop makers",
+    "time": 1759635969,
+    "type": "comment"
+  },
+  {
+    "by": "c-smile",
+    "id": 45478695,
+    "kids": [
+      45479759,
+      45478792
+    ],
+    "parent": 45477971,
+    "text": "I used to have NEC MobilePro 900 like here:\n<a href=\"https:&#x2F;&#x2F;live.staticflickr.com&#x2F;213&#x2F;481422006_92cdaeb6ee_b.jpg\" rel=\"nofollow\">https:&#x2F;&#x2F;live.staticflickr.com&#x2F;213&#x2F;481422006_92cdaeb6ee_b.jpg</a><p>I miss that form factor really.<p>And BTW, I regret that WindowsCE is not the thing anymore. IMO it has the best development infrastructure out there backed with MSVC IDE.<p>I classify OSes into two major groups: &quot;writer OS&quot; (all desktop OSes primarily) and &quot;reader OS&quot; (all mobiles). But there is a void in between for palmtop form factor devices.<p>Sigh, probably its only me who needs this ...",
+    "time": 1759635998,
+    "type": "comment"
+  },
+  {
+    "by": "Waterluvian",
+    "id": 45478729,
+    "kids": [
+      45479040,
+      45478828
+    ],
+    "parent": 45477971,
+    "text": "Were these truly meant to be “laptops” or just portable computers? I guess if they have a battery is a fairly clear discriminator.",
+    "time": 1759636594,
+    "type": "comment"
+  },
+  {
+    "by": "mananaysiempre",
+    "id": 45478783,
+    "parent": 45477971,
+    "text": "See also: “IBM Made the Longest Laptop Ever” by Cathode Ray Dude, <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=htl_JbZIcUU\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=htl_JbZIcUU</a>. There is, per the title, some discussion of its (somehow simultaneously inspired and silly) expansion system, but also of its other features as well, such as (spoiler alert) the fact that it may be the first personal computer to have suspend to RAM.<p>(So I guess—expanding on a sibling comment[1]—aesthetics is not the only axis on which “this beats about 75% of the current laptop market.”)<p>[1] <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=45478692\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=45478692</a>",
+    "time": 1759637589,
+    "type": "comment"
+  },
+  {
+    "by": "hollow-moe",
+    "id": 45478850,
+    "kids": [
+      45479802
+    ],
+    "parent": 45478553,
+    "text": "is this just a &quot;vulnerability&quot; in the same way sudo doesn&#x27;t ask for password for a short time after first use ?",
+    "time": 1759638589,
+    "type": "comment"
+  },
+  {
+    "by": "jen729w",
+    "dead": true,
+    "id": 45478851,
+    "kids": [
+      45478872
+    ],
+    "parent": 45478553,
+    "text": "[flagged]",
+    "time": 1759638635,
+    "type": "comment"
+  },
+  {
+    "by": "e40",
+    "id": 45478870,
+    "kids": [
+      45478879
+    ],
+    "parent": 45478553,
+    "text": "&gt;  Responsible disclosure was made via BugCrowd on 2nd October, 2023, and disclosure was authorized in January of 2024<p>I’m confused why this is just be publicly disclosed. It’s been known for 2 years!",
+    "time": 1759638962,
+    "type": "comment"
+  },
+  {
+    "by": "mrcsharp",
+    "id": 45478995,
+    "parent": 45435606,
+    "text": "On the topic of DATAS, there was a discussion here recently: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=45358527\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=45358527</a>",
+    "time": 1759641349,
+    "type": "comment"
+  },
+  {
+    "by": "hamonrye",
+    "id": 45479159,
+    "parent": 45475529,
+    "text": "RHEL knife-edge rolling kernel distribition for the proof of concept.",
+    "time": 1759643958,
+    "type": "comment"
+  },
+  {
+    "by": "derekcheng08",
+    "id": 45479301,
+    "parent": 45475529,
+    "text": "Interesting. I wonder if you could implement tool calling with this approach so the LLM calls the tool with the formal specification and gets back the result. Just like a coding agent can run a compiler, get back errors and then self-correct.",
+    "time": 1759645955,
+    "type": "comment"
+  },
+  {
+    "by": "maiuki",
+    "id": 45479373,
+    "parent": 45475529,
+    "text": "What industrial problems would this solve?",
+    "time": 1759646803,
+    "type": "comment"
+  },
+  {
+    "deleted": true,
+    "id": 45479374,
+    "parent": 45475529,
+    "time": 1759646817,
+    "type": "comment"
+  },
+  {
+    "by": "dtech",
+    "id": 45479441,
+    "kids": [
+      45479602,
+      45479657,
+      45479815
+    ],
+    "parent": 45435606,
+    "text": "Interesting, I mostly work in JVM, and am always impressed how much more advanced feature-wise the \n.NET runtime is.<p>Won&#x27;t this potentially cause stack overflows in programs that ran fine in older versions though?",
+    "time": 1759647666,
+    "type": "comment"
+  },
+  {
+    "by": "yread",
+    "id": 45479451,
+    "parent": 45435606,
+    "text": "I think that DATAS also has more knobs to tune it than the old GC. I plan to set the Throughput Cost Percentage (TCP) via System.GC.DTargetTCP to some low value so that is has little impact on latency.<p><a href=\"https:&#x2F;&#x2F;learn.microsoft.com&#x2F;en-us&#x2F;dotnet&#x2F;core&#x2F;runtime-config&#x2F;garbage-collector\" rel=\"nofollow\">https:&#x2F;&#x2F;learn.microsoft.com&#x2F;en-us&#x2F;dotnet&#x2F;core&#x2F;runtime-config...</a>",
+    "time": 1759647772,
+    "type": "comment"
+  },
+  {
+    "by": "thewisenerd",
+    "id": 45479529,
+    "parent": 45439684,
+    "text": "can&#x27;t wait for solutions of a similar nature around 2038-01-19<p>a free 68 more years!<p>(hopefully nobody optimized for the 1 signed bit when allocating memory tho)",
+    "time": 1759648546,
+    "type": "comment"
+  },
+  {
+    "by": "colesantiago",
+    "id": 45479614,
+    "kids": [
+      45479767
+    ],
+    "parent": 45478780,
+    "text": "The Sun Microsystems logo is one of the most famous (and my personal favorite) ambigram logos.<p><a href=\"https:&#x2F;&#x2F;commons.wikimedia.org&#x2F;wiki&#x2F;File:SUN_microsystems_logo_ambigram.png\" rel=\"nofollow\">https:&#x2F;&#x2F;commons.wikimedia.org&#x2F;wiki&#x2F;File:SUN_microsystems_log...</a>",
+    "time": 1759649711,
+    "type": "comment"
+  },
+  {
+    "by": "mingtianzhang",
+    "id": 45479617,
+    "kids": [
+      45479781,
+      45479683
+    ],
+    "parent": 45479006,
+    "text": "Edited version:<p>We try to solve a similar problem to put long documents in context. We built an MCP for Claude to allow you to put long PDFs in your context window that go beyond the context limits: <a href=\"https:&#x2F;&#x2F;pageindex.ai&#x2F;mcp\" rel=\"nofollow\">https:&#x2F;&#x2F;pageindex.ai&#x2F;mcp</a>.",
+    "time": 1759649739,
+    "type": "comment"
+  },
+  {
+    "by": "emil-lp",
+    "id": 45479628,
+    "parent": 45478780,
+    "text": "Related: Ambigrammia<p><a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=44692118\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=44692118</a>",
+    "time": 1759649908,
+    "type": "comment"
+  },
+  {
+    "by": "dariosalvi78",
+    "id": 45479646,
+    "parent": 45477971,
+    "text": "I still have it at home, it was my first PC, my father bought it and never used. I learned using DOS on it",
+    "time": 1759650111,
+    "type": "comment"
+  },
+  {
+    "by": "highwaylights",
+    "id": 45479652,
+    "kids": [
+      45479860,
+      45480024
+    ],
+    "parent": 45435606,
+    "text": "Very mixed feelings about this as there’s a strong case for the decisions made here but it also moves .NET further away from WASMGC, which makes using it in the client a complete non-starter for whole categories of web apps.<p>It’s a missed opportunity and I can’t help but feel that if the .NET team had gotten more involved in the proposals early on then C# in the browser could have been much more viable.",
+    "time": 1759650211,
+    "type": "comment"
+  },
+  {
+    "by": "cake-rusk",
+    "id": 45479658,
+    "kids": [
+      45479853,
+      45479789,
+      45479665,
+      45479663
+    ],
+    "parent": 45435606,
+    "text": "Are you now allowed to benchmark the .Net runtime &#x2F; GC?<p>Edit: \nLooks like you are allowed to benchmark the runtime now. I was able to locate an ancient EULA which forbade this (see section 3.4): <a href=\"https:&#x2F;&#x2F;download.microsoft.com&#x2F;documents&#x2F;useterms&#x2F;visual%20studio%20.net%20professional_2003_english_be8aa149-b0fd-494d-a902-07fdb2007b90.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;download.microsoft.com&#x2F;documents&#x2F;useterms&#x2F;visual%20s...</a><p>&gt; You may not disclose the results of any benchmark test of the .NET Framework component of\nthe Software to any third party without Microsoft’s prior written approval.",
+    "time": 1759650253,
+    "type": "comment"
+  },
+  {
+    "by": "0wis",
+    "id": 45479669,
+    "kids": [
+      45479733
+    ],
+    "parent": 45478780,
+    "text": "Interesting site ! There is something playful in the idea of ambigrams that I can’t explain. Maybe something like a puzzle ?<p>A nice project could be to automate a generator. It must be quite hard because it feels like a mix between a Captcha and an AI hallucination but made right. The « glyph » search part of the site is maybe the best asset to start with a database of possible matches.",
+    "time": 1759650375,
+    "type": "comment"
+  },
+  {
+    "by": "elmigranto",
+    "id": 45479681,
+    "kids": [
+      45479696,
+      45479857
+    ],
+    "parent": 45435606,
+    "text": "Use managed language, it will handle memory stuff for you, you don’t have to care.<p>But also read these 400 articles to understand our GC. If you are lucky, we will let you change 3 settings.",
+    "time": 1759650495,
+    "type": "comment"
+  },
+  {
+    "by": "siva7",
+    "id": 45479702,
+    "parent": 45479006,
+    "text": "so this is what claude code 2 uses under the hood? at least i got the impression it stays much better on track than the old version",
+    "time": 1759650630,
+    "type": "comment"
+  },
+  {
+    "by": "0wis",
+    "id": 45479713,
+    "parent": 45479006,
+    "text": "That’s powerful. Most of the differences I can see between AI generated output and human output comes from the « broad but specific » context of the task. I mean company culture, organization rules and politics, larger team focus and way of working.\nIt may take time to build the required knowledge bases but it must be worth it",
+    "time": 1759650730,
+    "type": "comment"
+  },
+  {
+    "by": "andrewstuart",
+    "id": 45479748,
+    "parent": 45479006,
+    "text": "Hopefully one day Anthropic will allow zipfile uploads like ChatGPT and Gemini have allowed for ages.",
+    "time": 1759651036,
+    "type": "comment"
+  },
+  {
+    "by": "oytis",
+    "id": 45479754,
+    "kids": [
+      45479794
+    ],
+    "parent": 45479165,
+    "text": "I wouldn&#x27;t blame the culture of conformity solely on social media really.",
+    "time": 1759651092,
+    "type": "comment"
+  },
+  {
+    "by": "prmoustache",
+    "id": 45479757,
+    "kids": [
+      45479936
+    ],
+    "parent": 45477971,
+    "text": "I&#x27;d argue that given the max angle of the screen it cannot be used on your lap comfortably unless your eyes are on your navel. Hence it would be a battery powered portable pc and not a laptop.",
+    "time": 1759651137,
+    "type": "comment"
+  },
+  {
+    "by": "crvdgc",
+    "id": 45479776,
+    "parent": 45479006,
+    "text": "Nice. When using OpenAI Codex CLI, I find the &#x2F;compact command very useful for large tasks. In a way it&#x27;s similar to the context editing tool. Maybe I can ask it to use a dedicated directory to simulate the memory tool.",
+    "time": 1759651421,
+    "type": "comment"
+  },
+  {
+    "by": "kachapopopow",
+    "id": 45479790,
+    "kids": [
+      45480007,
+      45479841,
+      45479806
+    ],
+    "parent": 45479165,
+    "text": "I honestly love this as someone who never has a consistent identity in terms of the name I use online and not keeping a long history such as re-creating accounts whenever it is convenient.<p>This is especially relevant on social media platforms where I don&#x27;t want to feel like someone can just dig up something I&#x27;ve said or shared 5 years ago and use that against me. It also helps me stay myself without changing my behavior to align with others.",
+    "time": 1759651591,
+    "type": "comment"
+  },
+  {
+    "by": "_pdp_",
+    "id": 45479795,
+    "kids": [
+      45479800
+    ],
+    "parent": 45479006,
+    "text": "Interestingly we rolled out a similar feature recently.",
+    "time": 1759651676,
+    "type": "comment"
+  },
+  {
+    "by": "rapnie",
+    "id": 45479798,
+    "parent": 45479165,
+    "text": "This page dates from 2017. See also earlier submissions:<p><a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=24627363\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=24627363</a> (2692 upvotes, 1099 comments)<p><a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=14585882\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=14585882</a> (389 upvotes, 190 comments)",
+    "time": 1759651755,
+    "type": "comment"
+  },
+  {
+    "by": "deepdarkforest",
+    "id": 45479852,
+    "parent": 45479006,
+    "text": "Context editing is interesting because most agents work on the assumption that KV cache is the most important thing to optimise and are very hesitant to remove parts of the context during work. It also sometimes introduces hallucinations, because parts of the context are with the assumption that eg tool results are there, but theyre not. Example Manus [0]. Eg, read file A, make changes on A. Then prompt on some more changes. If you now remove the &quot;read file A&quot; tool results, not only you break the cache, but in my own agent implementations(on gpt 5 at least) can hallucinate now since my prompt etc all naturally point to the content of the tool still beeing there.<p>Plus, the model got trained and RLed with a continuous context, except if they now tune it with messing with the context as well.<p><a href=\"https:&#x2F;&#x2F;manus.im&#x2F;blog&#x2F;Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus\" rel=\"nofollow\">https:&#x2F;&#x2F;manus.im&#x2F;blog&#x2F;Context-Engineering-for-AI-Agents-Less...</a>",
+    "time": 1759652299,
+    "type": "comment"
+  },
+  {
+    "by": "dmazin",
+    "id": 45479859,
+    "kids": [
+      45479977,
+      45479878,
+      45479885
+    ],
+    "parent": 45479165,
+    "text": "It&#x27;s important to note that this page is almost 10 years old.<p>I do find myself self-censoring in 2025, but it&#x27;s for a far more boring reason than surveillance capitalism. It&#x27;s because leaders on the far right literally said people should snitch on each other and dox each other.<p>Much as I hate to say it, I&#x27;m sure people on the right have felt the same way for at least a decade.",
+    "time": 1759652356,
+    "type": "comment"
+  },
+  {
+    "by": "komali2",
+    "id": 45479867,
+    "kids": [
+      45480041,
+      45479891
+    ],
+    "parent": 45479165,
+    "text": "Is the self censoring of big boy and girl worlds like &quot;murder,&quot; &quot;suicide,&quot; &quot;execution,&quot; &quot;Nazi,&quot; and &quot;genocide&quot; on videos and posts related to this? It&#x27;s been driving me crazy. Do not go quietly into that night and whatnot... Do not comply in advance.<p>The idea of changing my speech so my words look nice next to a Toyota advertisement fills me with disgust and anger.",
+    "time": 1759652412,
+    "type": "comment"
+  },
+  {
+    "by": "1a527dd5",
+    "id": 45479886,
+    "parent": 45435606,
+    "text": "DATAS has been great for us. Literally no effort, upgrade the app to net8 and flip it on. Huge reduction in memory.<p>TieredCompilation on the other hand caused a bunch of esoteric errors.",
+    "time": 1759652598,
+    "type": "comment"
+  },
+  {
+    "by": "yunohn",
+    "id": 45479910,
+    "kids": [
+      45479950
+    ],
+    "parent": 45479006,
+    "text": "Why are both this new Memory API and the Filesystem as (evolving) Context releases only for the Developer API - but not integrated into Claude Code?",
+    "time": 1759652838,
+    "type": "comment"
+  },
+  {
+    "by": "oulipo2",
+    "id": 45479949,
+    "parent": 45478553,
+    "text": "Is the described behavior still the default with `op` cli?",
+    "time": 1759653180,
+    "type": "comment"
+  },
+  {
+    "by": "rapnie",
+    "id": 45479970,
+    "parent": 45479165,
+    "text": "I find that awareness of the deep rabbit hole of surveillance capitalism, and how it increasingly extends into political and ideological realms to wield power and influence, makes me feel uneasy on all the physical gadgets I see all around me. And also the pervasive use of camera&#x27;s <i>everywhere</i>, that send video streams into the cloud where numerous AI applications do who knows what with the data.<p>Like in the Netherlands in the Jumbo supermarket chain, which is the first to introduce an AI glaring at you through the camera while you walk through the store, and at the checkout self-scan, doing sentiment analysis to see if you are suspicious. It feels outright dystopic, and I avoid the Jumbo if I can. Also it is crazy how Tesla camera platforms are surveilling the streets of the world for the richest man in the world, a narcissist who pushes far-right (to put it mildly) techno-feudalist ideologies.<p>It seems these tech developments have cooling effects on society in the physical space. Cooling effects that serve the ones in power, I suppose.",
+    "time": 1759653439,
+    "type": "comment"
+  },
+  {
+    "by": "jabl",
+    "id": 45479982,
+    "parent": 45452480,
+    "text": "Needs a [1991] tag.<p>Needless to say, in the 34 years since that article was published, a lot has changed. Thanks to massively increased transistor budgets, a more complex decoder with accompanying microcode ROM that might have been a big detriment in 1991 would today be a small speck of dust on the processor floor plan. At the same time, memory access performance hasn&#x27;t increased to the same extent as compute performance, thus putting a relatively bigger emphasis on code density.<p>All this being said, RISC &quot;won&quot; in the sense that many RISC principles have become the &quot;standard&quot; principles of designing an ISA. Still, choosing &quot;RISC purity&quot; over code density is arguably the wrong choice. Contemporary high performance RISC architectures (ARMv9, say) are very un-RISC in the sense of having a zillion different instructions, somewhat complex addressing modes, and so forth.",
+    "time": 1759653587,
+    "type": "comment"
+  },
+  {
+    "by": "noobermin",
+    "id": 45479999,
+    "parent": 45479165,
+    "text": "The good thing about younger zoomers and alpha is they&#x27;ve already incorporated this into their lives, so none of this is grotesque or surprising. They&#x27;ve adapted their culture to match.",
+    "time": 1759653866,
+    "type": "comment"
+  },
+  {
+    "by": "simianwords",
+    "id": 45480011,
+    "parent": 45479006,
+    "text": "I’m trying to understand what part of this is something we could not have hacked together already as clients? Maybe new sonnet is rl’ed to be able to use these memories in a better way?",
+    "time": 1759654053,
+    "type": "comment"
+  },
+  {
+    "by": "olliem36",
+    "id": 45480012,
+    "parent": 45479006,
+    "text": "At Zenning AI, a generalist AI designed to replace entire jobs with just prompts. Our agents typically run autonomously for hours, so effective context management is critical. I&#x27;d say that we invest most of our engineering effort into what is ultimately context management, such as:<p>1. Multi-agent orchestration\n2. Summarising and chunking large tool and agent responses\n3. Passing large context objects by reference between agents and tools<p>Two things to note that might be interesting to the community:<p>Firstly, when managing context, I recommend adding some evals to our context management flow, so you can measure effectiveness as you add improvements and changes.<p>For example, our evals will measure the impact of using Anthropics memory over time. Thus allowing our team to make a better informed decisions on that tools to use with our agents.<p>Secondly, there&#x27;s a tradeoff not mentioned in this article: speed vs. accuracy. Faster summarisation (or &#x27;compaction&#x27;) comes at a cost of accuracy. If you want good compaction, it can be slow. Depending on the use case, you should adjust your compaction strategy accordingly. For example, (forgive my major generalisation), for consumer facing products speed is usually preferred over a bump in accuracy. However, in business accuracy is generally preferred over speed.",
+    "time": 1759654059,
+    "type": "comment"
+  },
+  {
+    "by": "queenss90",
+    "dead": true,
+    "id": 45480025,
+    "parent": 45477971,
+    "text": "[flagged]",
+    "time": 1759654190,
+    "type": "comment"
+  },
+  {
+    "by": "presentation",
+    "id": 45480046,
+    "kids": [
+      45480063
+    ],
+    "parent": 45479165,
+    "text": "You don’t need some kind of “social score” to have the chilling effect, if anything I think people self censor more because of the fear of getting berated by others for their beliefs—both for those they know and don’t.<p>Interestingly I don’t think it’s really “cooling” that happened - if anything it’s been some people becoming extremely hot, and then the majority of people, myself included, are experiencing cooling.<p>Unfortunately liberals lately reinforce this by being vitriolic over everything and endorsing toxic behaviors like cutting off friends and family because they disagree on politics, which probably undermines the democratic ideals they think they’re defending. [1]<p>I consider myself overall more aligned with liberals, but as a recent example, it disheartens me to open Facebook after a long time and see so many people I knew from years past reveling in Charlie Kirk’s death as though that makes their cause more sympathetic to alienate anyone who might have agreed with things he said (even if I generally don’t). This just reinforces division and increases the social cooling effect.<p>[1] <a href=\"https:&#x2F;&#x2F;open.substack.com&#x2F;pub&#x2F;theargument&#x2F;p&#x2F;were-not-all-going-to-get-along?r=1bmwua&amp;utm_medium=ios\" rel=\"nofollow\">https:&#x2F;&#x2F;open.substack.com&#x2F;pub&#x2F;theargument&#x2F;p&#x2F;were-not-all-goi...</a>",
+    "time": 1759654487,
+    "type": "comment"
+  },
+  {
+    "by": "b00ty4breakfast",
+    "id": 45480051,
+    "parent": 45479165,
+    "text": "aw man, I really like the sentiment but boy do I <i>loathe</i> the presentation.  please just give me a text article instead of this &quot;modern web design&quot; endless scroll nonsense. And be sure to GET OFF MY LAWN on your way out",
+    "time": 1759654570,
+    "type": "comment"
+  }
+]

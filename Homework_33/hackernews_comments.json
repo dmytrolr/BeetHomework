@@ -1,0 +1,351 @@
+[
+  {
+    "by": "rapnie",
+    "id": 45479970,
+    "parent": 45479165,
+    "text": "I find that awareness of the deep rabbit hole of surveillance capitalism, and how it increasingly extends into political and ideological realms to wield power and influence, makes me feel uneasy on all the physical gadgets I see all around me. And also the pervasive use of camera&#x27;s <i>everywhere</i>, that send video streams into the cloud where numerous AI applications do who knows what with the data.<p>Like in the Netherlands in the Jumbo supermarket chain, which is the first to introduce an AI glaring at you through the camera while you walk through the store, and at the checkout self-scan, doing sentiment analysis to see if you are suspicious. It feels outright dystopic, and I avoid the Jumbo if I can. Also it is crazy how Tesla camera platforms are surveilling the streets of the world for the richest man in the world, a narcissist who pushes far-right (to put it mildly) techno-feudalist ideologies.<p>It seems these tech developments have cooling effects on society in the physical space. Cooling effects that serve the ones in power, I suppose.",
+    "time": 1759653439,
+    "type": "comment"
+  },
+  {
+    "by": "rapnie",
+    "id": 45479798,
+    "parent": 45479165,
+    "text": "This page dates from 2017. See also earlier submissions:<p><a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=24627363\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=24627363</a> (2692 upvotes, 1099 comments)<p><a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=14585882\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=14585882</a> (389 upvotes, 190 comments)",
+    "time": 1759651755,
+    "type": "comment"
+  },
+  {
+    "by": "kachapopopow",
+    "id": 45479790,
+    "kids": [
+      45479841,
+      45479806
+    ],
+    "parent": 45479165,
+    "text": "I honestly love this as someone who never has a consistent identity in terms of the name I use online and not keeping a long history such as re-creating accounts whenever it is convenient.<p>This is especially relevant on social media platforms where I don&#x27;t want to feel like someone can just dig up something I&#x27;ve said or shared 5 years ago and use that against me. It also helps me stay myself without changing my behavior to align with others.",
+    "time": 1759651591,
+    "type": "comment"
+  },
+  {
+    "by": "oytis",
+    "id": 45479754,
+    "kids": [
+      45479794
+    ],
+    "parent": 45479165,
+    "text": "I wouldn&#x27;t blame the culture of conformity solely on social media really.",
+    "time": 1759651092,
+    "type": "comment"
+  },
+  {
+    "by": "dmazin",
+    "id": 45479859,
+    "kids": [
+      45479977,
+      45479878,
+      45479885
+    ],
+    "parent": 45479165,
+    "text": "It&#x27;s important to note that this page is almost 10 years old.<p>I do find myself self-censoring in 2025, but it&#x27;s for a far more boring reason than surveillance capitalism. It&#x27;s because leaders on the far right literally said people should snitch on each other and dox each other.<p>Much as I hate to say it, I&#x27;m sure people on the right have felt the same way for at least a decade.",
+    "time": 1759652356,
+    "type": "comment"
+  },
+  {
+    "by": "komali2",
+    "id": 45479867,
+    "kids": [
+      45479891
+    ],
+    "parent": 45479165,
+    "text": "Is the self censoring of big boy and girl worlds like &quot;murder,&quot; &quot;suicide,&quot; &quot;execution,&quot; &quot;Nazi,&quot; and &quot;genocide&quot; on videos and posts related to this? It&#x27;s been driving me crazy. Do not go quietly into that night and whatnot... Do not comply in advance.<p>The idea of changing my speech so my words look nice next to a Toyota advertisement fills me with disgust and anger.",
+    "time": 1759652412,
+    "type": "comment"
+  },
+  {
+    "by": "dtech",
+    "id": 45479441,
+    "kids": [
+      45479657,
+      45479602,
+      45479815
+    ],
+    "parent": 45435606,
+    "text": "Interesting, I mostly work in JVM, and am always impressed how much more advanced feature-wise the \n.NET runtime is.<p>Won&#x27;t this potentially cause stack overflows in programs that ran fine in older versions though?",
+    "time": 1759647666,
+    "type": "comment"
+  },
+  {
+    "by": "highwaylights",
+    "id": 45479652,
+    "kids": [
+      45479860
+    ],
+    "parent": 45435606,
+    "text": "Very mixed feelings about this as there’s a strong case for the decisions made here but it also moves .NET further away from WASMGC, which makes using it in the client a complete non-starter for whole categories of web apps.<p>It’s a missed opportunity and I can’t help but feel that if the .NET team had gotten more involved in the proposals early on then C# in the browser could have been much more viable.",
+    "time": 1759650211,
+    "type": "comment"
+  },
+  {
+    "by": "1a527dd5",
+    "id": 45479886,
+    "parent": 45435606,
+    "text": "DATAS has been great for us. Literally no effort, upgrade the app to net8 and flip it on. Huge reduction in memory.<p>TieredCompilation on the other hand caused a bunch of esoteric errors.",
+    "time": 1759652598,
+    "type": "comment"
+  },
+  {
+    "by": "mrcsharp",
+    "id": 45478995,
+    "parent": 45435606,
+    "text": "On the topic of DATAS, there was a discussion here recently: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=45358527\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=45358527</a>",
+    "time": 1759641349,
+    "type": "comment"
+  },
+  {
+    "by": "yread",
+    "id": 45479451,
+    "parent": 45435606,
+    "text": "I think that DATAS also has more knobs to tune it than the old GC. I plan to set the Throughput Cost Percentage (TCP) via System.GC.DTargetTCP to some low value so that is has little impact on latency.<p><a href=\"https:&#x2F;&#x2F;learn.microsoft.com&#x2F;en-us&#x2F;dotnet&#x2F;core&#x2F;runtime-config&#x2F;garbage-collector\" rel=\"nofollow\">https:&#x2F;&#x2F;learn.microsoft.com&#x2F;en-us&#x2F;dotnet&#x2F;core&#x2F;runtime-config...</a>",
+    "time": 1759647772,
+    "type": "comment"
+  },
+  {
+    "by": "cake-rusk",
+    "id": 45479658,
+    "kids": [
+      45479853,
+      45479789,
+      45479665,
+      45479663
+    ],
+    "parent": 45435606,
+    "text": "Are you now allowed to benchmark the .Net runtime &#x2F; GC?",
+    "time": 1759650253,
+    "type": "comment"
+  },
+  {
+    "by": "elmigranto",
+    "id": 45479681,
+    "kids": [
+      45479696,
+      45479857
+    ],
+    "parent": 45435606,
+    "text": "Use managed language, it will handle memory stuff for you, you don’t have to care.<p>But also read these 400 articles to understand our GC. If you are lucky, we will let you change 3 settings.",
+    "time": 1759650495,
+    "type": "comment"
+  },
+  {
+    "by": "deepdarkforest",
+    "id": 45479852,
+    "parent": 45479006,
+    "text": "Context editing is interesting because most agents work on the assumption that KV cache is the most important thing to optimise and are very hesitant to remove parts of the context during work. It also sometimes introduces hallucinations, because parts of the context are with the assumption that eg tool results are there, but theyre not. Example Manus [0]. Eg, read file A, make changes on A. Then prompt on some more changes. If you now remove the &quot;read file A&quot; tool results, not only you break the cache, but in my own agent implementations(on gpt 5 at least) can hallucinate now since my prompt etc all naturally point to the content of the tool still beeing there.<p>Plus, the model got trained and RLed with a continuous context, except if they now tune it with messing with the context as well.<p><a href=\"https:&#x2F;&#x2F;manus.im&#x2F;blog&#x2F;Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus\" rel=\"nofollow\">https:&#x2F;&#x2F;manus.im&#x2F;blog&#x2F;Context-Engineering-for-AI-Agents-Less...</a>",
+    "time": 1759652299,
+    "type": "comment"
+  },
+  {
+    "by": "crvdgc",
+    "id": 45479776,
+    "parent": 45479006,
+    "text": "Nice. When using OpenAI Codex CLI, I find the &#x2F;compact command very useful for large tasks. In a way it&#x27;s similar to the context editing tool. Maybe I can ask it to use a dedicated directory to simulate the memory tool.",
+    "time": 1759651421,
+    "type": "comment"
+  },
+  {
+    "by": "andrewstuart",
+    "id": 45479748,
+    "parent": 45479006,
+    "text": "Hopefully one day Anthropic will allow zipfile uploads like ChatGPT and Gemini have allowed for ages.",
+    "time": 1759651036,
+    "type": "comment"
+  },
+  {
+    "by": "_pdp_",
+    "id": 45479795,
+    "kids": [
+      45479800
+    ],
+    "parent": 45479006,
+    "text": "Interestingly we rolled out a similar feature recently.",
+    "time": 1759651676,
+    "type": "comment"
+  },
+  {
+    "by": "0wis",
+    "id": 45479713,
+    "parent": 45479006,
+    "text": "That’s powerful. Most of the differences I can see between AI generated output and human output comes from the « broad but specific » context of the task. I mean company culture, organization rules and politics, larger team focus and way of working.\nIt may take time to build the required knowledge bases but it must be worth it",
+    "time": 1759650730,
+    "type": "comment"
+  },
+  {
+    "by": "yunohn",
+    "id": 45479910,
+    "kids": [
+      45479950
+    ],
+    "parent": 45479006,
+    "text": "Why are both this new Memory API and the Filesystem as (evolving) Context releases only for the Developer API - but not integrated into Claude Code?",
+    "time": 1759652838,
+    "type": "comment"
+  },
+  {
+    "by": "siva7",
+    "id": 45479702,
+    "parent": 45479006,
+    "text": "so this is what claude code 2 uses under the hood? at least i got the impression it stays much better on track than the old version",
+    "time": 1759650630,
+    "type": "comment"
+  },
+  {
+    "by": "mingtianzhang",
+    "id": 45479617,
+    "kids": [
+      45479781,
+      45479683
+    ],
+    "parent": 45479006,
+    "text": "Edited version:<p>We try to solve a similar problem to put long documents in context. We built an MCP for Claude to allow you to put long PDFs in your context window that go beyond the context limits: <a href=\"https:&#x2F;&#x2F;pageindex.ai&#x2F;mcp\" rel=\"nofollow\">https:&#x2F;&#x2F;pageindex.ai&#x2F;mcp</a>.",
+    "time": 1759649739,
+    "type": "comment"
+  },
+  {
+    "by": "0wis",
+    "id": 45479669,
+    "kids": [
+      45479733
+    ],
+    "parent": 45478780,
+    "text": "Interesting site ! There is something playful in the idea of ambigrams that I can’t explain. Maybe something like a puzzle ?<p>A nice project could be to automate a generator. It must be quite hard because it feels like a mix between a Captcha and an AI hallucination but made right. The « glyph » search part of the site is maybe the best asset to start with a database of possible matches.",
+    "time": 1759650375,
+    "type": "comment"
+  },
+  {
+    "by": "emil-lp",
+    "id": 45479628,
+    "parent": 45478780,
+    "text": "Related: Ambigrammia<p><a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=44692118\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=44692118</a>",
+    "time": 1759649908,
+    "type": "comment"
+  },
+  {
+    "by": "colesantiago",
+    "id": 45479614,
+    "kids": [
+      45479767
+    ],
+    "parent": 45478780,
+    "text": "The Sun Microsystems logo is one of the most famous (and my personal favorite) ambigram logos.<p><a href=\"https:&#x2F;&#x2F;commons.wikimedia.org&#x2F;wiki&#x2F;File:SUN_microsystems_logo_ambigram.png\" rel=\"nofollow\">https:&#x2F;&#x2F;commons.wikimedia.org&#x2F;wiki&#x2F;File:SUN_microsystems_log...</a>",
+    "time": 1759649711,
+    "type": "comment"
+  },
+  {
+    "by": "chrchr",
+    "id": 45476639,
+    "kids": [
+      45476701,
+      45476753,
+      45479667,
+      45477476
+    ],
+    "parent": 45475529,
+    "text": "I had a surprising interaction with Gemini 2.5 Pro that this project reminds me of. I was asking the LLM for help using an online CAS system to solve a system of equations, and the CAS system wasn&#x27;t working as I expected. After a couple back and forths with Gemini about the CAS system, Gemini just gave me the solution. I was surprised because it&#x27;s the kind of thing I don&#x27;t expect LLMs to be good at. It said it used Python&#x27;s sympy symbolic computation package to arrive at the solution. So, yes, the marriage of fuzzy LLMs with more rigorous tools can have powerful effects.",
+    "time": 1759611442,
+    "type": "comment"
+  },
+  {
+    "by": "tannhaeuser",
+    "id": 45476590,
+    "kids": [
+      45476784,
+      45479414
+    ],
+    "parent": 45475529,
+    "text": "LLMs are statistical language models (d&#x27;uh) not reasoners after all. I found generating logic programs, and Prolog source specifically, to work unreasonably well, though [1], maybe because Prolog was introduced for symbolic natural language processing and there&#x27;s a wealth of translation examples in the training set. Might be worth checking out Z3&#x27;s alternative Datalog syntax [2] instead of its Lisp-ish SMTLib syntax.<p>[1]: <a href=\"https:&#x2F;&#x2F;quantumprolog.sgml.net&#x2F;llm-demo&#x2F;part1.html\" rel=\"nofollow\">https:&#x2F;&#x2F;quantumprolog.sgml.net&#x2F;llm-demo&#x2F;part1.html</a><p>[2]: <a href=\"https:&#x2F;&#x2F;microsoft.github.io&#x2F;z3guide&#x2F;docs&#x2F;fixedpoints&#x2F;syntax\" rel=\"nofollow\">https:&#x2F;&#x2F;microsoft.github.io&#x2F;z3guide&#x2F;docs&#x2F;fixedpoints&#x2F;syntax</a>",
+    "time": 1759611104,
+    "type": "comment"
+  },
+  {
+    "by": "LASR",
+    "id": 45475924,
+    "kids": [
+      45476050,
+      45476072,
+      45478992,
+      45477631
+    ],
+    "parent": 45475529,
+    "text": "This is an interesting approach.<p>My team has been prototyping something very similar with encoding business operations policies with LEAN. We have some internal knowledge bases (google docs &#x2F; wiki pages) that we first convert to LEAN using LLMs.<p>Then we run the solver to verify consistency.<p>When a wiki page is changed, the process is run again and it&#x27;s essentially a linter for process.<p>Can&#x27;t say it moved beyond the prototyping stage though, since the LEAN conversion does require some engineers to look through it at least.<p>But a promising approach indeed, especially when you have a domain that requires tight legal &#x2F; financial compliance.",
+    "time": 1759605842,
+    "type": "comment"
+  },
+  {
+    "by": "nextos",
+    "id": 45476005,
+    "kids": [
+      45476083,
+      45476094
+    ],
+    "parent": 45475529,
+    "text": "This is a very interesting area of research. I did something similar a couple of years ago using logic and probabilistic logic inference engines to make sure conclusions followed from premises.<p>I also used agents to synthesize, formalize, and criticize domain knowledge. Obviously, it is not a silver bullet, but it does ensure some degree of correctness.<p>I think introducing some degree of symbolism and agents-as-a-judge is a promising way ahead, see e.g.: <a href=\"https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2410.10934\" rel=\"nofollow\">https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2410.10934</a>",
+    "time": 1759606529,
+    "type": "comment"
+  },
+  {
+    "by": "derekcheng08",
+    "id": 45479301,
+    "parent": 45475529,
+    "text": "Interesting. I wonder if you could implement tool calling with this approach so the LLM calls the tool with the formal specification and gets back the result. Just like a coding agent can run a compiler, get back errors and then self-correct.",
+    "time": 1759645955,
+    "type": "comment"
+  },
+  {
+    "by": "ivanbakel",
+    "id": 45475977,
+    "kids": [
+      45476244
+    ],
+    "parent": 45475529,
+    "text": "The repo is sparse on the details unless you go digging, which perhaps makes sense if this is just meant as the artifact for the mentioned paper.<p>Unless I’m wrong, this is mainly an API for trying to get an LLM to generate a Z3 program which “logically” represents a real query, including known facts, inference rules, and goals. The “oversight” this introduces is in the ability to literally read the logical statement being evaluated to an answer, and running the solver to see if it holds or not.<p>The natural source of doubt is: who’s going to read a bunch of SMT rules manually and be able to accurately double-check them against real-world understanding? Who double checks the constants? What stops the LLM from accidentally (or deliberately, for achieving the goal) adding facts or rules that are unsound (both logically and from a real-world perspective)?<p>The paper reports a *51%* false positive rate on a logic benchmark! That’s shockingly high, and suggests the LLM is either bad at logical models or keeps creating unsoundnesses. Sadly, the evaluation is a bit thin on the ground about how this stacks up, and what causes it to fall short.",
+    "time": 1759606246,
+    "type": "comment"
+  },
+  {
+    "by": "sytse",
+    "id": 45477313,
+    "parent": 45475529,
+    "text": "So the core idea is to use an LLM to draft reasoning as a structured, JSON domain-specific language (DSL), then deterministically translate that into first-order logic and verify it with a theorem prover (Z3).<p>Interesting that the final answer is provably entailed (or you get a counterexample), instead of being merely persuasive chain-of-thought.",
+    "time": 1759617041,
+    "type": "comment"
+  },
+  {
+    "by": "0xWTF",
+    "id": 45476723,
+    "kids": [
+      45477441,
+      45479044,
+      45477078
+    ],
+    "parent": 45475529,
+    "text": "Am I reading this right? Statistical LLM outputs pushed through a formal logic model? Wouldn&#x27;t that be a case of &quot;crap in, crap out&quot;?",
+    "time": 1759612092,
+    "type": "comment"
+  },
+  {
+    "by": "renshijian",
+    "id": 45478217,
+    "parent": 45475529,
+    "text": "This is fascinating! An AI that doesn&#x27;t just think out loud, but keeps a verifiable diary. It&#x27;s like a philosopher with a cryptographic notary public living in its brain. Amazing work!",
+    "time": 1759628437,
+    "type": "comment"
+  },
+  {
+    "by": "hamonrye",
+    "id": 45479159,
+    "parent": 45475529,
+    "text": "RHEL knife-edge rolling kernel distribition for the proof of concept.",
+    "time": 1759643958,
+    "type": "comment"
+  }
+]
