@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7d4041a1-1dd3-41c0-aa43-d9315141ec16" name="Changes" comment="Оновлено виконані завдання">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 10/Homework10.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 10/Homework10.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 9/Lorem ipsum.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 9/Lorem ipsum.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 9/Modules_9.1 (Копія).zip" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 9/Modules_9.1 (Копія).zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="Python Script" />
+        <option value="SQL File" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dmytrolr&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:dmytrolr/BeetHomework.git&quot;,
+    &quot;accountId&quot;: &quot;e7df91f1-c9bb-48f4-8c2a-375cd0931c0d&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2yBxSywET2RvjEtVLEMDXdgWwP4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests in Classwork 06.08.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Classwork 06_08.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Classwork_06_08.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_user_exceptions.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in tests_phonebook.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.14.3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.15.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.15.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.15.3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.16.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.16.3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.16.4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.17.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.17.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.17.3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.18.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.18.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.19.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.19.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.19.3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Classwork 06.08.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Classwork 30.06.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Classwork 30.07.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Classwork26.07.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Classwork28.06.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Classwork_06_08.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Homework 11_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Homework 13.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Homework 13.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Homework 13.3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Homework 4 theme Bull.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Homework 5 Input.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Homework10.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Homework10.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Phonebook.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.homework_21.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_a.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_b.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mymod.executor&quot;: &quot;Run&quot;,
+    &quot;Python.user_exceptions.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dmytrolr/Documents/Python/GitTraining/podolyanyn-python_group_3_homeworks/Dmytro_K&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;,
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Homework 13/13.3" />
+      <recent name="$PROJECT_DIR$/Phonebook_proj" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Homework 11_1">
+    <configuration name="Homework 11_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Homework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Homework 11" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Homework 11/Homework 11_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Phonebook" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Homework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Phonebook_proj" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Phonebook_proj/Phonebook.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mymod" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Homework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Homework 9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Homework 9/mymod.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Homework 11_1" />
+        <item itemvalue="Python.mymod" />
+        <item itemvalue="Python.Phonebook" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-ac7cc7082f2d-c6efb3732140-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26199.25" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d4041a1-1dd3-41c0-aa43-d9315141ec16" name="Changes" comment="" />
+      <created>1749321773896</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749321773896</updated>
+      <workItem from="1749321776356" duration="5785000" />
+      <workItem from="1749355294189" duration="3695000" />
+      <workItem from="1749455610399" duration="8000" />
+      <workItem from="1750350626262" duration="3000" />
+      <workItem from="1750350649228" duration="89000" />
+      <workItem from="1750494350343" duration="153000" />
+      <workItem from="1750745800646" duration="5596000" />
+      <workItem from="1750835488733" duration="1431000" />
+      <workItem from="1750866131012" duration="8990000" />
+      <workItem from="1750954782060" duration="7361000" />
+      <workItem from="1751124101699" duration="1902000" />
+      <workItem from="1751135895883" duration="4085000" />
+      <workItem from="1751296491967" duration="3039000" />
+      <workItem from="1751348905490" duration="72000" />
+      <workItem from="1751349102078" duration="22000" />
+      <workItem from="1751389726916" duration="2566000" />
+      <workItem from="1751436622705" duration="996000" />
+      <workItem from="1751471074696" duration="1201000" />
+      <workItem from="1751653722597" duration="621000" />
+      <workItem from="1751654394293" duration="521000" />
+      <workItem from="1751654933611" duration="189000" />
+      <workItem from="1751696326834" duration="246000" />
+      <workItem from="1751870812109" duration="98000" />
+      <workItem from="1751871034824" duration="8366000" />
+      <workItem from="1752072069435" duration="4027000" />
+      <workItem from="1752153048557" duration="899000" />
+      <workItem from="1752168532898" duration="21000" />
+      <workItem from="1752305423593" duration="1787000" />
+      <workItem from="1752511840504" duration="116000" />
+      <workItem from="1753283814550" duration="5288000" />
+      <workItem from="1753360058066" duration="237000" />
+      <workItem from="1753434448465" duration="5902000" />
+      <workItem from="1753509041431" duration="12573000" />
+      <workItem from="1753548969449" duration="420000" />
+      <workItem from="1753549404012" duration="61000" />
+      <workItem from="1753549480720" duration="420000" />
+      <workItem from="1753549940328" duration="306000" />
+      <workItem from="1753675813291" duration="1143000" />
+      <workItem from="1753686514755" duration="652000" />
+      <workItem from="1753687494669" duration="34000" />
+      <workItem from="1753714405663" duration="619000" />
+      <workItem from="1753718782819" duration="1160000" />
+      <workItem from="1753719972834" duration="3940000" />
+      <workItem from="1753761594061" duration="26000" />
+      <workItem from="1753763219217" duration="2000" />
+      <workItem from="1753780947175" duration="15000" />
+      <workItem from="1753891642406" duration="6906000" />
+      <workItem from="1753978440363" duration="69000" />
+      <workItem from="1753978538030" duration="559000" />
+      <workItem from="1754116989084" duration="41000" />
+      <workItem from="1754215531723" duration="6246000" />
+      <workItem from="1754404549125" duration="678000" />
+      <workItem from="1755188377313" duration="60000" />
+      <workItem from="1755188462793" duration="3584000" />
+      <workItem from="1755240209728" duration="2708000" />
+      <workItem from="1755243275571" duration="3196000" />
+      <workItem from="1756314706130" duration="3311000" />
+      <workItem from="1756393321704" duration="51000" />
+      <workItem from="1756538942838" duration="2702000" />
+      <workItem from="1756625687834" duration="431000" />
+      <workItem from="1757522448184" duration="3320000" />
+      <workItem from="1757565150951" duration="952000" />
+    </task>
+    <task id="LOCAL-00001" summary="Оновлено виконані завдання">
+      <option name="closed" value="true" />
+      <created>1753437975076</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753437975076</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Оновлено виконані завдання">
+      <option name="closed" value="true" />
+      <created>1753438036615</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753438036615</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Оновлено виконані завдання">
+      <option name="closed" value="true" />
+      <created>1753438863954</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753438863954</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Оновлено виконані завдання">
+      <option name="closed" value="true" />
+      <created>1753509652513</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753509652513</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Оновлено виконані завдання">
+      <option name="closed" value="true" />
+      <created>1754216790540</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1754216790541</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Оновлено виконані завдання">
+      <option name="closed" value="true" />
+      <created>1754216981528</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1754216981528</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Оновлено виконані завдання">
+      <option name="closed" value="true" />
+      <created>1754219971527</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1754219971527</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Оновлено виконані завдання">
+      <option name="closed" value="true" />
+      <created>1755190550611</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1755190550611</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Оновлено виконані завдання">
+      <option name="closed" value="true" />
+      <created>1755192027406</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1755192027406</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Оновлено виконані завдання">
+      <option name="closed" value="true" />
+      <created>1755240496878</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1755240496878</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Оновлено виконані завдання">
+      <option name="closed" value="true" />
+      <created>1755240826961</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1755240826961</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Оновлено виконані завдання">
+      <option name="closed" value="true" />
+      <created>1755241213468</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1755241213468</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Оновлено виконані завдання">
+      <option name="closed" value="true" />
+      <created>1755243516081</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1755243516081</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Оновлено виконані завдання">
+      <option name="closed" value="true" />
+      <created>1755244002273</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1755244002273</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Оновлено виконані завдання">
+      <option name="closed" value="true" />
+      <created>1755244029547</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1755244029547</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Оновлено виконані завдання" />
+    <option name="LAST_COMMIT_MESSAGE" value="Оновлено виконані завдання" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Codewars/New practice.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Homework$16_2.coverage" NAME="16.2 Coverage Results" MODIFIED="1754215565243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 16" />
+    <SUITE FILE_PATH="coverage/Homework$Homework_4_theme_Bull.coverage" NAME="Homework 4 theme Bull Coverage Results" MODIFIED="1752072277705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Homework$19_1.coverage" NAME="19.1 Coverage Results" MODIFIED="1755240455068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 19" />
+    <SUITE FILE_PATH="coverage/Homework$user_exceptions.coverage" NAME="user_exceptions Coverage Results" MODIFIED="1754216729662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 16" />
+    <SUITE FILE_PATH="coverage/Homework$Classwork26_07.coverage" NAME="Classwork26.07 Coverage Results" MODIFIED="1753719319544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Classwork" />
+    <SUITE FILE_PATH="coverage/Homework$14_3.coverage" NAME="14.3 Coverage Results" MODIFIED="1753438844427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 14" />
+    <SUITE FILE_PATH="coverage/Homework$15_1.coverage" NAME="15.1 Coverage Results" MODIFIED="1753435413417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 15" />
+    <SUITE FILE_PATH="coverage/Homework$15_3.coverage" NAME="15.3 Coverage Results" MODIFIED="1753437803507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 15" />
+    <SUITE FILE_PATH="coverage/Homework$mymod.coverage" NAME="mymod Coverage Results" MODIFIED="1750748404024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 9" />
+    <SUITE FILE_PATH="coverage/Homework$Homework10_1.coverage" NAME="Homework10.1 Coverage Results" MODIFIED="1750748914126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 10" />
+    <SUITE FILE_PATH="coverage/Homework$Classwork_30_07.coverage" NAME="Classwork 30.07 Coverage Results" MODIFIED="1753898490696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Classwork" />
+    <SUITE FILE_PATH="coverage/Homework$16_4.coverage" NAME="16.4 Coverage Results" MODIFIED="1754216190658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 16" />
+    <SUITE FILE_PATH="coverage/Homework$17_2.coverage" NAME="17.2 Coverage Results" MODIFIED="1754219111322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 17" />
+    <SUITE FILE_PATH="coverage/Homework$19_3.coverage" NAME="19.3 Coverage Results" MODIFIED="1755240945817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 19" />
+    <SUITE FILE_PATH="coverage/Homework$Homework_13_1.coverage" NAME="Homework 13.1 Coverage Results" MODIFIED="1753284366540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 13" />
+    <SUITE FILE_PATH="coverage/Homework$.coverage" NAME=" Coverage Results" MODIFIED="1756316235464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Classwork" />
+    <SUITE FILE_PATH="coverage/Homework$module_b.coverage" NAME="module_b Coverage Results" MODIFIED="1750745925143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 9/Modules_9.1" />
+    <SUITE FILE_PATH="coverage/Homework$Homework_13_3.coverage" NAME="Homework 13.3 Coverage Results" MODIFIED="1753509622481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 13" />
+    <SUITE FILE_PATH="coverage/Homework$17_1.coverage" NAME="17.1 Coverage Results" MODIFIED="1754217841586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 17" />
+    <SUITE FILE_PATH="coverage/Homework$18_2.coverage" NAME="18.2 Coverage Results" MODIFIED="1755189738138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 18" />
+    <SUITE FILE_PATH="coverage/Homework$15_2.coverage" NAME="15.2 Coverage Results" MODIFIED="1753435385743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 15" />
+    <SUITE FILE_PATH="coverage/Homework$Homework_5_Input.coverage" NAME="Homework 5 Input Coverage Results" MODIFIED="1749358778088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Homework$Homework10_2.coverage" NAME="Homework10.2 Coverage Results" MODIFIED="1750751236351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 10" />
+    <SUITE FILE_PATH="coverage/Homework$Practice.coverage" NAME="Practice Coverage Results" MODIFIED="1751874596692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Codewars" />
+    <SUITE FILE_PATH="coverage/Homework$Classwork28_06.coverage" NAME="Classwork28.06 Coverage Results" MODIFIED="1753514649926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Classwork" />
+    <SUITE FILE_PATH="coverage/Homework$16_3.coverage" NAME="16.3 Coverage Results" MODIFIED="1754216028460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 16" />
+    <SUITE FILE_PATH="coverage/Homework$Phonebook.coverage" NAME="Phonebook Coverage Results" MODIFIED="1751653830226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Phonebook_proj" />
+    <SUITE FILE_PATH="coverage/Homework$Classwork_06_08.coverage" NAME="Classwork_06_08 Coverage Results" MODIFIED="1756393340684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Classwork" />
+    <SUITE FILE_PATH="coverage/Homework$19_2.coverage" NAME="19.2 Coverage Results" MODIFIED="1755240666440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 19" />
+    <SUITE FILE_PATH="coverage/Homework$Homework_13_2.coverage" NAME="Homework 13.2 Coverage Results" MODIFIED="1752080859718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 13" />
+    <SUITE FILE_PATH="coverage/Homework$module_a.coverage" NAME="module_a Coverage Results" MODIFIED="1750745914956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 9/Modules_9.1" />
+    <SUITE FILE_PATH="coverage/Homework$homework_21.coverage" NAME="homework_21 Coverage Results" MODIFIED="1756625905965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../GitTraining/podolyanyn-python_group_3_homeworks/Dmytro_K/homework_21" />
+    <SUITE FILE_PATH="coverage/Homework$Classwork_30_06.coverage" NAME="Classwork 30.06 Coverage Results" MODIFIED="1751439625605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Classwork" />
+    <SUITE FILE_PATH="coverage/Homework$17_3.coverage" NAME="17.3 Coverage Results" MODIFIED="1754219367778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 17" />
+    <SUITE FILE_PATH="coverage/Homework$Homework_11_1.coverage" NAME="Homework 11_1 Coverage Results" MODIFIED="1757526244545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 11" />
+    <SUITE FILE_PATH="coverage/Homework$18_1.coverage" NAME="18.1 Coverage Results" MODIFIED="1755188502132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 18" />
+  </component>
+</project>
