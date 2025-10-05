@@ -3,16 +3,17 @@
 # Створіть блок try-except, який виловлює виняток, якщо два значення, надані функцією input,
 # не були числами, а значення b було нулем (не можна ділити на нуль).
 
-def calculate ():
-    # ТІЛО ФУНКЦІЇ
+def calculate(a: float, b: float) -> str:
     try:
-        a = float(
-            input('Додайте значення для піднесення в квадрат: ').replace(',', '.')
-                  )
-        b = float(
-            input('Додайте дільник: ').replace(',', '.')
-                  )
-        result = (a**2)/b
+        result = (a ** 2) / b
+    except (ValueError, TypeError):
+        return 'Неправильний тип даних! Вводьте лише числа!'
+    except ZeroDivisionError:
+        return 'Ділити на нуль не можна!'
+    else:
+        return f'Результат обчислень: {result}'
+
+
     # БЛОК ВИКЛЮЧЕНЬ
     except (ValueError, TypeError):
         print(
