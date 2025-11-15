@@ -1,0 +1,20 @@
+<h1>Список нотаток</h1>
+
+<form method="get">
+  <input type="text" name="search" placeholder="Пошук за назвою">
+  <input type="text" name="category" placeholder="Фільтр за категорією">
+  <button type="submit">Фільтрувати</button>
+</form>
+
+<a href="{% url 'note_new' %}">Створити нову нотатку</a>
+
+<ul>
+  {% for note in notes %}
+    <li>
+      <a href="{% url 'note_detail' note.pk %}">{{ note.title }}</a>
+      ({{ note.category.title }})
+    </li>
+  {% empty %}
+    <li>Нотаток поки немає.</li>
+  {% endfor %}
+</ul>
